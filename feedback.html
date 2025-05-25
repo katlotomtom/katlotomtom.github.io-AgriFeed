@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Agrifeed</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Agri<span>Feed</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="feedback.html" class="active">Feedback</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Customer Feedback</h1>
+            <p>Your opinions matter to us - help us improve our products and services</p>
+        </div>
+    </section>
+
+    <section class="feedback-intro">
+        <div class="container">
+            <div class="feedback-message">
+                <h2>We Value Your Feedback</h2>
+                <p>At Agrifeed, we're committed to continuous improvement. Your feedback helps us understand what we're doing right and where we can do better. Whether you've had a positive experience or see room for improvement, we want to hear from you.</p>
+                <p>Please take a few minutes to share your thoughts about our products, customer service, or any other aspect of your experience with Agrifeed.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback-form-section">
+        <div class="container">
+            <div class="feedback-form-container">
+                <form class="feedback-form" id="feedbackForm">
+                    <div class="form-group">
+                        <label for="name">Full Name*</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="product">Product(s) Used*</label>
+                        <select id="product" name="product" required>
+                            <option value="" disabled selected>Select a product</option>
+                            <option value="livestock">Livestock Feed</option>
+                            <option value="poultry">Poultry Feed</option>
+                            <option value="crop">Crop Nutrition</option>
+                            <option value="organic">Organic Solutions</option>
+                            <option value="custom">Custom Feed Solution</option>
+                            <option value="multiple">Multiple Products</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>How would you rate our product quality?*</label>
+                        <div class="rating-group">
+                            <div class="rating">
+                                <input type="radio" id="quality-5" name="quality" value="5" required>
+                                <label for="quality-5">Excellent</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="quality-4" name="quality" value="4">
+                                <label for="quality-4">Very Good</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="quality-3" name="quality" value="3">
+                                <label for="quality-3">Good</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="quality-2" name="quality" value="2">
+                                <label for="quality-2">Fair</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="quality-1" name="quality" value="1">
+                                <label for="quality-1">Poor</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>How would you rate our customer service?*</label>
+                        <div class="rating-group">
+                            <div class="rating">
+                                <input type="radio" id="service-5" name="service" value="5" required>
+                                <label for="service-5">Excellent</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="service-4" name="service" value="4">
+                                <label for="service-4">Very Good</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="service-3" name="service" value="3">
+                                <label for="service-3">Good</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="service-2" name="service" value="2">
+                                <label for="service-2">Fair</label>
+                            </div>
+                            <div class="rating">
+                                <input type="radio" id="service-1" name="service" value="1">
+                                <label for="service-1">Poor</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="feedback">Your Feedback*</label>
+                        <textarea id="feedback" name="feedback" rows="6" required placeholder="Please share your experience with our products or services..."></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="improvements">Suggestions for Improvement</label>
+                        <textarea id="improvements" name="improvements" rows="4" placeholder="How can we make our products or services better?"></textarea>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="contact-permission" name="contact-permission">
+                        <label for="contact-permission">I give permission for Agrifeed to contact me about my feedback</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Feedback</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials feedback-testimonials">
+        <div class="container">
+            <h2 class="section-title">What Others Are Saying</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Agrifeed's livestock feed has significantly improved the health and productivity of my cattle. Their customer service team was extremely helpful in selecting the right product for my needs."</p>
+                    <div class="testimonial-author">
+                        <h4>John Farmer</h4>
+                        <p>Dairy Farmer</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"We've been using Agrifeed's poultry feed for over 5 years. The quality is consistent and the results speak for themselves. Our egg production has increased by 15% since switching to Agrifeed."</p>
+                    <div class="testimonial-author">
+                        <h4>Sarah Williams</h4>
+                        <p>Poultry Farm Owner</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>"The organic feed solutions from Agrifeed have helped us maintain our organic certification while improving our crop yields. I appreciate their commitment to sustainable agriculture."</p>
+                    <div class="testimonial-author">
+                        <h4>Michael Thompson</h4>
+                        <p>Organic Farmer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Thank You for Your Feedback</h2>
+            <p>Your input helps us continue to improve and better serve the agricultural community.</p>
+            <a href="products.html" class="btn btn-primary">Explore Our Products</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Agri<span>Feed</span></h2>
+                    <p>Nourishing agriculture, feeding the future.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Plot 21336 Phakalane Industrial, Gaborone</p>
+                    <p><i class="fas fa-phone"></i> +267 390 1851</p>
+                    <p><i class="fas fa-envelope"></i> info@agrifeed.co.bw</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a target="_blank" rel="nofollow" href="https://web.facebook.com/agrifeedbotswana" class="w-socials-item-link" title="Facebook" aria-label="Facebook"><span class="w-socials-item-link-hover"></span><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a target="_blank" rel="nofollow" href="https://www.instagram.com/agrifeedbw/" class="w-socials-item-link" title="Instagram" aria-label="Instagram"><span class="w-socials-item-link-hover"></span><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2025 Agrifeed Botswana</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

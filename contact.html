@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Agrifeed</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Agri<span>Feed</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our team for inquiries, orders, or support</p>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Our Location</h3>
+                    <p> Plot 21336 Phakalane Industrial<br>Gaborone<br>Botswana</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Phone</h3>
+                    <p>Main Office: (123) 456-7890<br>Customer Support: (267) 456-7891<br>Sales: (123) 456-7892</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>General Inquiries: info@agrifeed.co.bw<br>Support: support@agrifeed.co.bw<br>Sales: sales@agrifeed.co.bw</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Business Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 1:00 PM<br>Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-form-container">
+                <div class="form-header">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name*</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject*</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message*</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="inquiry">Inquiry Type*</label>
+                        <select id="inquiry" name="inquiry" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="product">Product Information</option>
+                            <option value="order">Place an Order</option>
+                            <option value="support">Technical Support</option>
+                            <option value="partnership">Partnership Opportunities</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Subscribe to our newsletter</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+    <div class="container">
+        <h2 class="section-title">Find Us</h2>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.123456789!2d25.9738089!3d-24.5663726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebb43ef872dcfaf%3A0x7ab81a6b976721f3!2sAGRIFEED%2C%20Phakalane%20Industrial%2C%20Sebele%20Station%20Road%2C%20Gaborone%2C%20Botswana!5e0!3m2!1sen!2sbw!4v1623252352796!5m2!1sen!2sbw" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+
+    <section class="sales-team">
+        <div class="container">
+            <h2 class="section-title">Our Sales Team</h2>
+            <p class="section-description">Our regional representatives are ready to assist you with product information and orders.</p>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="images/crop32.jpg" alt="North Region Sales Manager">
+                    <h3>Jennifer Adams</h3>
+                    <p class="position">North Region Sales Manager</p>
+                    <p><i class="fas fa-phone"></i> (267) 456-7893</p>
+                    <p><i class="fas fa-envelope"></i> jennifer@agrifeed.co.bw</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/crop34.jpg" alt="South Region Sales Manager">
+                    <h3>David Martin</h3>
+                    <p class="position">South Region Sales Manager</p>
+                    <p><i class="fas fa-phone"></i> (267) 456-7894</p>
+                    <p><i class="fas fa-envelope"></i> david@agrifeed.co.bw</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/crop35.jpg" alt="East Region Sales Manager">
+                    <h3>Lisa Johnson</h3>
+                    <p class="position">East Region Sales Manager</p>
+                    <p><i class="fas fa-phone"></i> (267) 456-7895</p>
+                    <p><i class="fas fa-envelope"></i> lisa@agrifeed.co.bw</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/crop36.png" alt="West Region Sales Manager">
+                    <h3>Michael Chen</h3>
+                    <p class="position">West Region Sales Manager</p>
+                    <p><i class="fas fa-phone"></i> (267) 456-7896</p>
+                    <p><i class="fas fa-envelope"></i> michael@agrifeed.co.bw</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>How can I place an order?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>You can place an order by contacting our sales team directly, filling out the contact form on this page, or calling our main office. For large orders, we recommend scheduling a consultation with one of our regional sales managers.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>What is your delivery area?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>We currently deliver to all 50 states in the US. For international orders, please contact our sales team to discuss shipping options and requirements.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Do you offer samples of your products?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Yes, we offer sample sizes of most of our feed products for testing purposes. Contact your regional sales representative to request samples for your farm or operation.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>What payment methods do you accept?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>We accept all major credit cards, bank transfers, and checks. For established customers, we also offer net-30 payment terms upon approval.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Agri<span>Feed</span></h2>
+                    <p>Nourishing agriculture, feeding the future.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Plot 21336 Phakalane Industrial, Gaborone</p>
+                    <p><i class="fas fa-phone"></i> +267 390 1851p>
+                    <p><i class="fas fa-envelope"></i> info@agrifeed.co.bw</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a target="_blank" rel="nofollow" href="https://web.facebook.com/agrifeedbotswana" class="w-socials-item-link" title="Facebook" aria-label="Facebook"><span class="w-socials-item-link-hover"></span><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a target="_blank" rel="nofollow" href="https://www.instagram.com/agrifeedbw/" class="w-socials-item-link" title="Instagram" aria-label="Instagram"><span class="w-socials-item-link-hover"></span><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2025 Agrifeed Botswana</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
